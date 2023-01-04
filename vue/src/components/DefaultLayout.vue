@@ -38,11 +38,20 @@
                     class="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                   >
                     <span class="sr-only">Open user menu</span>
-                    <img
-                      class="h-8 w-8 rounded-full"
-                      :src="user.imageUrl"
-                      alt=""
-                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
                   </MenuButton>
                 </div>
                 <transition
@@ -106,7 +115,20 @@
         <div class="border-t border-gray-700 pt-4 pb-3">
           <div class="flex items-center px-5">
             <div class="flex-shrink-0">
-              <img class="h-10 w-10 rounded-full" :src="user.imageUrl" alt="" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
             </div>
             <div class="ml-3">
               <div class="text-base font-medium leading-none text-white">
